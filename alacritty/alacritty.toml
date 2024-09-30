@@ -1,0 +1,15 @@
+import = [
+    './themes/banana-blueberry.toml'
+]
+
+[env]
+TERM = 'xterm-256color'
+
+[font]
+# Any NerdFontMono
+normal = { family = 'JetBrainsMonoNerdFontMono' }
+size = 13
+
+[window]
+opacity = 0.95
+
