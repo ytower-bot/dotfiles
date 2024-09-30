@@ -224,7 +224,7 @@
   # Current directory background color.
   typeset -g POWERLEVEL9K_DIR_BACKGROUND=53
   # Default current directory foreground color.
-  typeset -g POWERLEVEL9K_DIR_FOREGROUND=11
+  typeset -g POWERLEVEL9K_DIR_FOREGROUND=12
   # If directory is too long, shorten some of its segments to the shortest possible unique
   # prefix. The shortened directory can be tab-completed to the original.
   typeset -g POWERLEVEL9K_SHORTEN_STRATEGY=truncate_to_unique
@@ -234,7 +234,7 @@
   typeset -g POWERLEVEL9K_DIR_SHORTENED_FOREGROUND=202
   # Color of the anchor directory segments. Anchor segments are never shortened. The first
   # segment is always an anchor.
-  typeset -g POWERLEVEL9K_DIR_ANCHOR_FOREGROUND=11
+  typeset -g POWERLEVEL9K_DIR_ANCHOR_FOREGROUND=12
   # Display anchor directory segments in bold.
   typeset -g POWERLEVEL9K_DIR_ANCHOR_BOLD=true
   # Don't shorten directories that contain any of these files. They are anchors.
@@ -394,9 +394,9 @@
 
     # Styling for different parts of Git status.
     local       meta='%7F' # white foreground
-    local      clean='%12F' # black foreground
-    local   modified='%0F' # black foreground
-    local  untracked='%0F' # black foreground
+    local      clean='%11F' # black foreground
+    local   modified='%11F' # black foreground
+    local  untracked='%11F' # black foreground
     local conflicted='%1F' # red foreground
 
     local res
@@ -978,7 +978,7 @@
   typeset -g POWERLEVEL9K_CONTEXT_{REMOTE,REMOTE_SUDO}_FOREGROUND=3
   typeset -g POWERLEVEL9K_CONTEXT_{REMOTE,REMOTE_SUDO}_BACKGROUND=0
   # Default context color (no privileges, no SSH).
-  typeset -g POWERLEVEL9K_CONTEXT_FOREGROUND=205
+  typeset -g POWERLEVEL9K_CONTEXT_FOREGROUND=12
   typeset -g POWERLEVEL9K_CONTEXT_BACKGROUND=236
 
   # Context format when running with privileges: user@hostname.
