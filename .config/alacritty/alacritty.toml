@@ -1,15 +1,52 @@
-import = [
-    './themes/banana-blueberry.toml'
-]
+[colors.bright]
+black = "#585b70"
+blue = "#89b4fa"
+cyan = "#7dcfff"
+green = "#a6e3a1"
+magenta = "#f5c2e7"
+red = "#f38ba8"
+white = "#f4f4f5"
+yellow = "#f9e2af"
 
-[env]
-TERM = 'xterm-256color'
+[colors.cursor]
+cursor = "#f5e0dc"
+text = "#1e1e2e"
+
+[colors.normal]
+black = "#45475a"
+blue = "#649cf8"
+cyan = "#57c1ff"
+green = "#8ada83"
+magenta = "#ef9cd8"
+red = "#ef688e"
+white = "#e4e4e7"
+yellow = "#f6d488"
+
+[colors.primary]
+background = "#0a0a0a"
+foreground = "#cdd6f4"
+
+[colors.selection]
+background = "#14b8a6"
+text = "#ffffff"
 
 [font]
-# Any NerdFontMono
-normal = { family = 'JetBrainsMonoNerdFontMono' }
-size = 13
+size = 14.0
+
+[font.normal]
+family = "JetBrainsMonoNL Nerd Font Mono"
+style = "Semibold"
+
+[font.italic]
+family = "JetBrainsMonoNL Nerd Font Mono"
+style = "Semibold Italic"
+
+[terminal.shell]
+program = "/bin/zsh"
 
 [window]
-opacity = 0.95
+opacity = 0.6
 
+[window.padding]
+x = 4
+y = 4
