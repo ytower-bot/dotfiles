@@ -2,8 +2,11 @@
 theme = gotham-default
 
 # font
-font-family = "MesloLGMDZ Nerd Font Mono"
+font-family = "JetBrainsMonoNL Nerd Font Mono"
 font-size = 19
+
+font-feature = -calt
+
 
 # window
 window-padding-x = 12
