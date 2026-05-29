@@ -1,0 +1,12 @@
+# theme
+theme = gotham-default
+
+# font
+font-family = "MesloLGMDZ Nerd Font Mono"
+font-size = 19
+
+# window
+window-padding-x = 12
+window-padding-y = 12
+
+macos-titlebar-style = transparent
