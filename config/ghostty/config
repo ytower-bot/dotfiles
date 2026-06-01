@@ -1,12 +1,10 @@
 # theme
-theme = gotham-default
+theme = srcery-default
 
 # font
-font-family = "JetBrainsMonoNL Nerd Font Mono"
 font-size = 19
-
 font-feature = -calt
-
+font-family = "JetBrainsMonoNL Nerd Font Mono"
 
 # window
 window-padding-x = 12
